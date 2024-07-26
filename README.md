@@ -1,1 +1,2 @@
 # Promises-in-Javascript
+This code implements a calculator with asynchronous operations using promises. It prompts the user to enter two numbers, then sequentially performs arithmetic operations (addition, subtraction, multiplication, and division) with delays simulated by setTimeout. Each operation is handled by a separate promise, which processes the previous results and logs the output. Note that, due to the incorrect usage of multiple p1.then() calls, the operations do not execute in sequence as intended.
